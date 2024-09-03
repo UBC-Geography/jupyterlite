@@ -1,14 +1,26 @@
-# JupyterLite Demo
+# UBC Geography JupyterLite
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+This is a customized deployment of the
+[JupyterLite Demo](https://jupyterlite.github.io/demo) with a specific focus
+around the diverse computing needs of geographers.
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+You can learn more about JupyterLite and running JupyterLab entirely within a
+browser [here](https://jupyterlite.readthedocs.io/en/stable/index.html).
 
-## ✨ Try it in your browser ✨
+This method for running JupyterLab is still experimental and many features
+aren't available. For UBC researchers seeking a stable method for running
+Jupyter on remote resources, review
+[UBC Open Jupyter](https://open.jupyter.ubc.ca/jupyter/hub),
+[UBC Syzygy](https://ubc.syzygy.ca/), or
+[Alliance JupyterHub](https://docs.alliancecan.ca/wiki/JupyterHub).
 
-➡️ **https://jupyterlite.github.io/demo**
+## Customizations
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+This deployment has been adapted to include the following:
+
+- A Python kernel running from Pyodide's development release, which provides
+  access to the popular geospatial package, rasterio.
+- An R kernel running from R for WebAssembly's webR distribution.
 
 ## Requirements
 
@@ -16,10 +28,6 @@ JupyterLite is being tested against modern web browsers:
 
 - Firefox 90+
 - Chromium 89+
-
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
 
 ## Further Information and Updates
 
