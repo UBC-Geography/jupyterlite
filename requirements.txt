@@ -1,12 +1,12 @@
 # Core modules (mandatory)
-jupyterlite-core==0.4.1
-jupyterlab~=4.2.5
+jupyterlite-core==0.4.4
+jupyterlab~=4.3.1
 
 # Python kernel (optional)
-jupyterlite-pyodide-kernel==0.4.2
+jupyterlite-pyodide-kernel==0.4.4
 
 # R kernel (optional)
-git+http://github.com/kjmalek/jupyterlite-webr-kernel.git
+git+https://github.com/kjmalek/jupyterlite-webr-kernel.git
 
 # Language support (optional)
 jupyterlab-language-pack-fr-FR
