@@ -1,9 +1,9 @@
 # Core modules (mandatory)
-jupyterlite-core==0.4.4
-jupyterlab~=4.3.1
+jupyterlite-core==0.4.5
+jupyterlab~=4.3.4
 
 # Python kernel (optional)
-jupyterlite-pyodide-kernel==0.4.4
+jupyterlite-pyodide-kernel==0.4.5
 
 # R kernel (optional)
 git+https://github.com/kjmalek/jupyterlite-webr-kernel.git

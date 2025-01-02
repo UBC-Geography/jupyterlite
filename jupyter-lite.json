@@ -4,7 +4,7 @@
     "appName": "UBC Geography JupyterLite",
     "litePluginSettings": {
       "@jupyterlite/pyodide-kernel-extension:kernel": {
-        "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.27.0a2/full/pyodide.js"
+        "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.27.0/full/pyodide.js"
       }
     }
   }
